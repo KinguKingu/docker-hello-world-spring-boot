@@ -1,5 +1,5 @@
 # Maven build container 
-# This is spring boot application
+# This is Spring Boot Application
 
 FROM maven:3.8.5-openjdk-11 AS maven_build
 
