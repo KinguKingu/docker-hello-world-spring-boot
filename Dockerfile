@@ -1,6 +1,7 @@
 # Maven build container 
 # This is Spring Boot Application
-# Adding some resources 
+# Adding some resources
+##### Changes on the docker file 
 FROM maven:3.8.5-openjdk-11 AS maven_build
 
 COPY pom.xml /tmp/
